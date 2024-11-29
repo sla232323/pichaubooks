@@ -1,0 +1,24 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+:root {
+    --cor-de-fundo: #960606;
+    --branco: #ff0000;
+    --laranja: #000000;
+    --azul-degrade: linear-gradient(97.54deg, #000000c9 35.49%, #000000 165.37%);
+    --fonte-principal: "Poppins";
+    --azul: #ffd900;
+    --fonte-secundario: "Embed code";
+    --preto: #ffffff;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
